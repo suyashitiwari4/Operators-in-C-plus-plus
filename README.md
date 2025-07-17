@@ -1,5 +1,5 @@
 # Operators-in-C-plus-plus
-Exp-3 
+Exp-3
 Aim: 1.To find wether the given number is positive or negative.
      2.To calculate average and grade of a student of 5 subjects.
      3.To find the quadrants of a given point.
