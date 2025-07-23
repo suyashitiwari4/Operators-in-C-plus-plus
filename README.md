@@ -1,21 +1,43 @@
-# Operators-in-C-plus-plus
-Exp-3
-Aim: 1.To find wether the given number is positive or negative.
-     2.To calculate average and grade of a student of 5 subjects.
-     3.To find the quadrants of a given point.
-Theory:
-     1.We used if, else if and else statement.In this if the given number is greater than 0 then it is positive,if the given
-       number is less than 0 then it is negative otherwise it is 0.
-       
-     2.In this case first we find the average of marks of 5 subjects by avg=(m1+m2+m3+m4+m5)/5. Then we us if ,else if and else
-      statement.If avg is greater than equal top 90 then the grade is O,if it is greater than equal to 80 and less than 90 then
-      the grade is A+,if it is greater than equal to 70 and less than 80 then the grade is B+, if it is greater than equal to 60 
-      and less than 70 ,then the grade is C+,if it is greater than equal to 50 and less than 40 then the grade  is D,else the grade
-      is F.
+AIM: To study and implement Operators in C++
 
-    3.In this we take 2 points x and y.If x and y both are positive then the point lies on 1 st quadrant,if x is negative and y is 
-     positive then the point lies on 2nd quadrant, if x and y both are negative then point lies on 3rd quadrant ,if x is positive and 
-     y is negaative then the point lies on 4th quadrant else the point is origin.
-Result:
-     Hence , we learned to find wether the given number is positive or negative,to calculate average and grade of a student of 5 subjects
-     and to find the quadrants of a given point.
+SOFTWARE REQUIRED:
+Visual Studio
+
+THEORY:
+An operator is a symbol that tells the compiler to perform specific mathematical or logical manipulations. C++ is rich in built-in operators and provide the following types of operators −
+
+1.Arithmetic Operators
+2.Relational Operators
+3.Logical Operators
+4.Bitwise Operators
+5.Assignment Operators
+6.Arithmetic Operators:
+
+.)Arithmetic operators in C++ are the basic operators, which are used for basic mathematical or arithmetical operations on operands. These operators are essential for performing calculations and manipulating data within a program. There are following arithmetic operators supported by C++ languag
+
+.)Relational Operators:
+Relational operators are used to compare two values or expressions. These operators return a boolean value − true if the comparison is correct, and else false. They are essential for making decisions and controlling the flow of a program based on conditions. There are following relational operators supported by C++ language,
+
+.)Logical Operators:
+Logical operators are used to perform logical operations on boolean values (true or false). These operators are essential for controlling the flow of a program based on conditions. There are three primary logical operators in C++ as mentioned below − There are following logical operators supported by C++ language,
+
+.)Bitwise Operators:
+Bitwise operators are used to perform operations at the bit level on integer data types. These operations work on direct manipulation of bits, such as low-level programming, graphics, and cryptography.
+
+.)Assignment Operators:
+Assignment operators are used to assign values to variables. These operators allow you to set or update the value stored in a variable.
+
+IMPLEMENTATION:
+In this practical I have used different types of operators in the following cases,
+
+1.Positive or Negative number check:
+This uses the comparition operators which help to identify negative and positive numbers.
+
+2.Student grade Determination:
+This uses the mix of Comparision and Logical Operators to alot grades according to the average marks in the 5 subjects.
+
+3.Quadrant Determination:
+This also uses the mix of Comparision and Logical Operators to determine the quadrant according to the coordinates , which are entered by the user.
+
+CONCLUSION:
+I explored various Types of Operators in C++ and understood the usage of the operators.
